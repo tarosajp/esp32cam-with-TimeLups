@@ -1,6 +1,9 @@
 # esp32cam-with-TimeLups
 I made a time lapse using esp32cam.The save method is SD card. Low cost and seaving power.
 
+You can shoot up to 255 x 999 images using "EPROM ()"function.
+Even if you reset it, the number will be recorded in Rom(EPROM), so it will not be overwritten.
+
 If If you want to change the time, change 180 (3 minutes) on line 101.
 This unit of number is seconds.
 
